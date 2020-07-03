@@ -1,1 +1,2 @@
-#appliacation main file
+server:
+  port: 0
