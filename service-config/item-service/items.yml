@@ -7,6 +7,8 @@ spring:
     password: admin1
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
+    jpa:
+      generate-ddl: true
     hibernate:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
