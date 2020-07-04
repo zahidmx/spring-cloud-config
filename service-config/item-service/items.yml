@@ -4,7 +4,7 @@ spring:
   datasource
     url: jdbc:mysql://localhost:3306/centerlized_db?createDatabaseIfNotExist=true
     username: root
-    password: {cipher}50faf35ad1bee54e00c08003905fe07999a77e33752cb6b5cce0a711ea500260
+    password:{cipher}50faf35ad1bee54e00c08003905fe07999a77e33752cb6b5cce0a711ea500260
     driver-class-name: com.mysql.jdbc.Driver
   jpa
     hibernate
